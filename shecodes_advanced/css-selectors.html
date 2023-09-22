@@ -10,33 +10,33 @@
       font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
     }
 
-    header h1 {
+    h1,
+    h2 {
       text-align: center;
       font-size: 34px;
       line-height: 48px;
-      margin: 60px 0 0;
       font-weight: 900;
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 60px;
       color: #272044;
     }
 
-    header h2 {
-      text-align: center;
-      font-weight: 900;
-      font-size: 34px;
-      line-height: 48px;
-      margin: 0;
+    h2 {
       color: #8064e9;
       padding: 0 0 24px;
     }
 
-    section p {
+    .description p {
       text-align: center;
       font-size: 18px;
       line-height: 28px;
       font-family: PT Mono, monospace;
     }
 
-    footer button {
+    button {
       border-radius: 25px;
       border: 1px solid #8064e9;
       background: #8064e9;
@@ -51,16 +51,16 @@
       box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
     }
 
-    footer button:hover {
+    button:hover {
       cursor: pointer;
       background: #5e41a7;
     }
 
-    section .limited-spots {
+    span .limited-spots {
       font-weight: bold;
     }
 
-    footer .button-container {
+    div .button-container {
       margin: 60px 0;
     }
   </style>
@@ -75,7 +75,7 @@
       Access a new career in Technology
     </h2>
   </header>
-  <section>
+  <section class="description">
     <p>
       SheCodes teaches coding, design and management skills to women
       <br />
