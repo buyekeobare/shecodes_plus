@@ -1,0 +1,18 @@
+body {
+  font-family: 'Mooli', sans-serif;
+  margin: 50px auto;
+}
+
+.weather>.weather-body {
+  background: #ffe4c4;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.partly-cloudy {
+  width: 150px;
+}
+
